@@ -1,0 +1,46 @@
+{
+  "name": "Kiwity Api Bot",
+  "description": "Kiwity Developer",
+  "keywords": [
+    "telegram",
+    "best",
+    "app",
+    "scrapper",
+    "3"
+  ],
+  "repository": "https://github.com/casperteam/zoom",
+  "success_url": "https://telegram.dog/SpEcHlDe",
+  "website": "https://github.com/CasperTeam/zoom",
+  "env": {
+    "WEBHOOK": {
+      "description": "Setting this to ANYTHING will enable webhooks when in env mode",
+      "value": "ANYTHING"
+    },
+    "TG_BOT_TOKEN": {
+      "description": "Your bot token, as a string."
+    },
+    "URL": {
+      "description": "The Heroku App URL similar to https://<appname>.herokuapp.com/",
+      "value": "https://<appname>.herokuapp.com/"
+    },
+    "APP_TITLE": {
+      "description": "specify a custom app title(Bot name)",
+      "required": false
+    },
+    "APP_SHORT_NAME": {
+      "description": "specify a custom alphamumeric shortname (5-32 characters)(Bot name)",
+      "required": false
+    },
+    "APP_URL": {
+      "description": "specify a custom app URL | https://telegram.dog/(BOT_USERNAME)",
+      "required": false
+    }
+  },
+  "formation": {
+    "web": {
+      "quantity": 1,
+      "size": "free"
+    }
+  },
+  "stack": "heroku-20"
+}
